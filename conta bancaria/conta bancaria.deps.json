@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "conta bancaria/1.0.0": {
+        "runtime": {
+          "conta bancaria.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "conta bancaria/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
