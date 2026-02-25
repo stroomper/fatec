@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora IMC</title>
+    <!-- Favicon-->
+    <link rel="icon"type="Image/png" href="images/favicon.png">
+    <!--css -->
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <Div class="formulario">
+        <h2>Dados do Paciente</h2>
+        <form id="formIMC">
+            <label type="text">Nome Completo</label>
+            <input type="text" id="nome" placeholder="Ex: Maria Jose" minlength="2" maxlength="100"
+            required title="Informe o nome Completo">
+            <label for="Nascimento">Data de nascimento</label>
+            <input type="date" id="Nascimento">
+            <label for="Peso"> Peso (Kg)</label> <!-- step ao clicar, passo de 0.1-->
+            <Input type="number" id="Peso" step="0.1" min="0" max="350" placeholder="Ex: 68.4" required></Input>
+            <label for="Altura"> Altura (M)</label> <!-- step ao clicar, passo de 0.1-->
+            <Input type="number" id="Altura" step="0.1" min="0" max="2.50" placeholder="Ex: 1.7" required></Input>
+            <button type="submit">Calcular</button>
+            <button type="reset" class="clear">Limpar</button>
+        </form>
+    </Div>    
+    <div id="resultado"></div>
+    <!--JS-->
+    <script src="js/Script.js"></script>
+</body>
+</html>
