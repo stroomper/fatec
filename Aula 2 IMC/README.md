@@ -8,4 +8,5 @@ O projeto inclui CSS e manipulação de campos através do JS.
 ## 👽Tecnologia Utilizadas
 - HTML5
 - CSS3
-- jAVASCRIPT (VANILLA js)
+
+- jAVASCRIPT (Vanila js)
